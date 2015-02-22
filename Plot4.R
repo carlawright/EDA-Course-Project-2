@@ -30,7 +30,7 @@ plot(
         pch=19,
         main="Total PM2.5 Emissions In The Unitied States", 
         xlab="Year",
-        ylab="Total Emissions [in thousands of tons]" 
+        ylab="Total Emissions For Coal Combustion Related Sources[in thousands of tons]" 
         )
 
 lm<- lm(total ~ year, coalemissions)
